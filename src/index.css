@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,11 +31,17 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 5.9% 90%;
+    /* --border: 240 5.9% 90%; */
+    --border: 240 0% 0%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
+
+    --jz-green: 131, 67%, 47%;
+    --jz-blue: 199, 100%, 53%;
+    --jz-brown: 37, 68%, 75%;
+    --jz-yellow: 43, 99%, 53%;
   }
 
   .dark {

@@ -1,11 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
 import App from "./App.tsx";
+import { Toaster } from "./components/ui/sonner.tsx";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
+const appRoot = (
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+    <Toaster />
+  </BrowserRouter>
 );
+
+const appRootWithDevWrapper =
+  import.meta.env.VITE_NODE_ENV === "dev" ? (
+    <React.StrictMode>{appRoot}</React.StrictMode>
+  ) : (
+    appRoot
+  );
+
+ReactDOM.createRoot(document.getElementById("root")!).render(appRootWithDevWrapper);

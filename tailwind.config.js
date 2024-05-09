@@ -12,11 +12,20 @@ module.exports = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+    },
+    screens: {
+      xs: "400px",
+      sm: "600px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "-apple-system", "sans-serif"],
+        raleway: ["Raleway", "-apple-system", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -50,6 +59,12 @@ module.exports = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        jz: {
+          green: "hsl(var(--jz-green))",
+          brown: "hsl(var(--jz-brown))",
+          yellow: "hsl(var(--jz-yellow))",
+          blue: "hsl(var(--jz-blue))",
         },
       },
       borderRadius: {
