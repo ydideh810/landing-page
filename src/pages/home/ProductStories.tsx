@@ -13,7 +13,6 @@ function ProductStoryTemplate(props: StoryTemplateProps) {
         <span className="whitespace-pre-line">{props.heading}</span>
       </div>
       <img
-        loading="lazy"
         src={props.img}
         alt={props.alt}
         className="absolute left-0 right-0 top-48 mx-auto lg:w-[410px]"
@@ -21,11 +20,11 @@ function ProductStoryTemplate(props: StoryTemplateProps) {
 
       {/* We need this to cache the images in advance */}
       {props.img === "/hero-mockup-1.webp" ? (
-        <img src="/hero-mockup-2.webp" className="hidden" loading="lazy" />
+        <img src="/hero-mockup-2.webp" className="hidden" />
       ) : props.img === "/hero-mockup-2.webp" ? (
-        <img src="/hero-mockup-3.webp" className="hidden" loading="lazy" />
+        <img src="/hero-mockup-3.webp" className="hidden" />
       ) : (
-        <img src="/hero-mockup-1.webp" className="hidden" loading="lazy" />
+        <img src="/hero-mockup-1.webp" className="hidden" />
       )}
     </div>
   );

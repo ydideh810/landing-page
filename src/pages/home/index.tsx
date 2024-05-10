@@ -23,7 +23,6 @@ function Home() {
         </div>
         <div className="max-h-[50%]">
           <img
-            loading="lazy"
             src="/hero-combined.webp"
             alt="combined picture of mockups"
             className="w-full max-w-screen-md lg:hidden"
