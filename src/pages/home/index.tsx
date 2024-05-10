@@ -1,4 +1,3 @@
-import heroCombined from "@/assets/hero-combined.png";
 import WaitlistInput from "@/components/ui/WaitlistInput";
 
 import ProductStories from "./ProductStories";
@@ -24,7 +23,8 @@ function Home() {
         </div>
         <div className="max-h-[50%]">
           <img
-            src={heroCombined}
+            loading="lazy"
+            src="/hero-combined.webp"
             alt="combined picture of mockups"
             className="w-full max-w-screen-md lg:hidden"
           />
