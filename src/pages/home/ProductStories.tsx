@@ -1,6 +1,3 @@
-import hero1 from "@/assets/hero-mockup-1.png";
-import hero2 from "@/assets/hero-mockup-2.png";
-import hero3 from "@/assets/hero-mockup-3.png";
 import ReactInstaStories from "react-insta-stories";
 
 type StoryTemplateProps = {
@@ -21,10 +18,14 @@ function ProductStoryTemplate(props: StoryTemplateProps) {
         className="absolute left-0 right-0 top-48 mx-auto lg:w-[410px]"
       />
 
-      {/* We need this to preload the images */}
-      <img src={hero1} className="hidden" />
-      <img src={hero2} className="hidden" />
-      <img src={hero3} className="hidden" />
+      {/* We need this to cache the images in advance */}
+      {props.img === "/hero-mockup-1.webp" ? (
+        <img src="/hero-mockup-2.webp" className="hidden" />
+      ) : props.img === "/hero-mockup-2.webp" ? (
+        <img src="/hero-mockup-3.webp" className="hidden" />
+      ) : (
+        <img src="/hero-mockup-1.webp" className="hidden" />
+      )}
     </div>
   );
 }
@@ -35,7 +36,7 @@ function ProductStories() {
       content: () => (
         <ProductStoryTemplate
           heading={`Your personal AI tutor, \nbuilt in every chat`}
-          img={hero1}
+          img="/hero-mockup-1.webp"
           alt="Your personal AI tutor, built in every chat"
         />
       ),
@@ -44,7 +45,7 @@ function ProductStories() {
       content: () => (
         <ProductStoryTemplate
           heading={`Meet and chat with \nfellow learners`}
-          img={hero2}
+          img="/hero-mockup-2.webp"
           alt="Meet and chat with fellow learners"
         />
       ),
@@ -53,7 +54,7 @@ function ProductStories() {
       content: () => (
         <ProductStoryTemplate
           heading={`Practice with our \ngenerative flashcards`}
-          img={hero3}
+          img="/hero-mockup-3.webp"
           alt="Practice with our generative flashcards"
         />
       ),

@@ -31,15 +31,15 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    /* --border: 240 5.9% 90%; */
-    --border: 240 0% 0%;
+    --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
 
     --radius: 0.5rem;
 
     --jz-green: 131, 67%, 47%;
-    --jz-blue: 199, 100%, 53%;
+    --jz-lightblue: 199, 100%, 53%;
+    --jz-blue: 206, 100%, 50%;
     --jz-brown: 37, 68%, 75%;
     --jz-yellow: 43, 99%, 53%;
   }
