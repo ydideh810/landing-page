@@ -80,7 +80,7 @@ export default function WaitlistInput() {
         />
       </Button>
       <Input
-        className="absolute h-12 w-full pl-4 pr-32 placeholder-white"
+        className="absolute h-12 w-full pl-4 pr-36 placeholder-white"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
