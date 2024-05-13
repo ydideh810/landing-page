@@ -5,7 +5,7 @@ import ProductStories from "./ProductStories";
 function Home() {
   return (
     <div className="flex flex-col place-items-center px-8 pt-8 lg:p-16">
-      <div className="flex h-[calc(100vh-6rem)] w-full max-w-screen-xl flex-col place-content-center place-items-center gap-12 overflow-clip sm:h-[calc(100vh-8rem)] lg:h-[calc(100vh-14rem)] lg:flex-row">
+      <div className="flex h-full min-h-[calc(100vh-6rem)] w-full min-w-[220px] max-w-screen-xl flex-col place-content-center place-items-center gap-12 overflow-clip sm:h-[calc(100vh-8rem)] sm:min-h-[calc(100vh-8rem)] lg:h-[calc(100vh-14rem)] lg:min-h-[calc(100vh-14rem)] lg:flex-row">
         <div className="flex w-full flex-col place-content-center place-items-center gap-8 lg:place-items-start lg:gap-12">
           <div className="flex flex-col place-items-center gap-4 lg:place-items-start">
             <h1 className="max-w-md text-center font-poppins text-3xl text-primary min-[360px]:text-4xl sm:max-w-2xl sm:text-5xl lg:text-left xl:text-6xl">
