@@ -61,11 +61,13 @@ export default function WaitlistInput() {
           "bg-jz-green hover:bg-jz-green": status === WaitlistButtonStatus.SUCCESS,
         })}
         disabled={status === WaitlistButtonStatus.PENDING}
-        onClick={handleSubmit}>
+        onClick={handleSubmit}
+      >
         <span
           className={cn({
             hidden: status !== WaitlistButtonStatus.DEFAULT,
-          })}>
+          })}
+        >
           Join Waitlist
         </span>
         <Loader
