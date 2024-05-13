@@ -1,0 +1,5 @@
+# robotstxt.org/
+
+sitemap: https://jouzu.org/sitemap.txt
+
+User-agent: *
