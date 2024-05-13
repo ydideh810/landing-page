@@ -5,13 +5,12 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "[npm prod]"
-      prefix-development: "[npm dev]"
+      prefix: "Dependabot"
       include: "scope"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "[actions]"
+      prefix: "Dependabot"
       include: "scope"
