@@ -20,11 +20,11 @@ function ProductStoryTemplate(props: StoryTemplateProps) {
 
       {/* We need this to cache the images in advance */}
       {props.img === "/niu.webp" ? (
-        <img src="/niu.webp" className="hidden" />
-      ) : props.img === "/niu2.webp" ? (
         <img src="/niu2.webp" className="hidden" />
-      ) : (
+      ) : props.img === "/niu2.webp" ? (
         <img src="/niu3.webp" className="hidden" />
+      ) : (
+        <img src="/niu.webp" className="hidden" />
       )}
     </div>
   );
