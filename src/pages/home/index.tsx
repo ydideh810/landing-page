@@ -11,7 +11,7 @@ function Home() {
             <h1 className="max-w-md text-center font-poppins text-3xl text-primary min-[360px]:text-4xl sm:max-w-2xl sm:text-5xl lg:text-left xl:text-6xl">
               Experience the power of AI <span className="text-jz-blue">w/out sacrificing your privacy</span>
             </h1>
-            <span className="max-w-[360px] text-pretty text-center text-sm text-zinc-500 sm:max-w-sm sm:text-base lg:text-left">
+            <span className="max-w-[360px] text-pretty text-center text-sm text-white-500 sm:max-w-sm sm:text-base lg:text-left">
               Engage in natural-sounding conversations, generate high-quality content, summarize lengthy documents and resolve creative challenges.
             </span>
           </div>
