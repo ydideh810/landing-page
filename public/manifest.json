@@ -1,24 +1,24 @@
 {
-  "name": "Jouzu",
-  "short_name": "Jouzu",
+  "name": "Niddam",
+  "short_name": "Niddam",
   "icons": [
     {
-      "src": "favicon-16x16.png",
+      "src": "nid.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "favicon-32x32.png",
+      "src": "nid.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "android-chrome-192x192.png",
+      "src": "nid.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "android-chrome-512x512.png",
+      "src": "nid.png",
       "sizes": "512x512",
       "type": "image/png"
     }
