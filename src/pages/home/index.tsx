@@ -9,11 +9,10 @@ function Home() {
         <div className="flex w-full flex-col place-content-center place-items-center gap-8 lg:place-items-start lg:gap-12">
           <div className="flex flex-col place-items-center gap-4 lg:place-items-start">
             <h1 className="max-w-md text-center font-poppins text-3xl text-primary min-[360px]:text-4xl sm:max-w-2xl sm:text-5xl lg:text-left xl:text-6xl">
-              Learn Japanese through <span className="text-jz-blue">organic conversations</span>
+              Experience the power of AI <span className="text-jz-blue">w/out sacrificing your privacy</span>
             </h1>
             <span className="max-w-[360px] text-pretty text-center text-sm text-zinc-500 sm:max-w-sm sm:text-base lg:text-left">
-              Chat with fellow learners, get personalize feedback and practice with our generative
-              flashcards!
+              Engage in natural-sounding conversations, generate high-quality content, summarize lengthy documents and resolve creative challenges.
             </span>
           </div>
           <WaitlistInput />
