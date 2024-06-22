@@ -9,7 +9,7 @@ function Footer() {
           alt="Jouzu logo"
           className="h-8 grayscale filter duration-150 ease-in-out hover:filter-none"
         />
-        <span className="text-xs text-zinc-400">© 2024 Jouzu</span>
+        <span className="text-xs text-zinc-400">© 2024 Niddam</span>
       </div>
     </div>
   );
