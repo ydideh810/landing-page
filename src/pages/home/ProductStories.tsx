@@ -19,12 +19,12 @@ function ProductStoryTemplate(props: StoryTemplateProps) {
       />
 
       {/* We need this to cache the images in advance */}
-      {props.img === "/hero-mockup-1.webp" ? (
-        <img src="/hero-mockup-2.webp" className="hidden" />
-      ) : props.img === "/hero-mockup-2.webp" ? (
-        <img src="/hero-mockup-3.webp" className="hidden" />
+      {props.img === "/niu.webp" ? (
+        <img src="/niu.webp" className="hidden" />
+      ) : props.img === "/niu2.webp" ? (
+        <img src="/niu2.webp" className="hidden" />
       ) : (
-        <img src="/hero-mockup-1.webp" className="hidden" />
+        <img src="/niu3.webp" className="hidden" />
       )}
     </div>
   );
@@ -35,27 +35,27 @@ function ProductStories() {
     {
       content: () => (
         <ProductStoryTemplate
-          heading={`Your personal AI tutor, \nbuilt in every chat`}
-          img="/hero-mockup-1.webp"
-          alt="Your personal AI tutor, built in every chat"
+          heading={`Your personal private AI, \nfrom your browser`}
+          img="/niu.webp"
+          alt="Your personal private AI, from your browser"
         />
       ),
     },
     {
       content: () => (
         <ProductStoryTemplate
-          heading={`Meet and chat with \nfellow learners`}
-          img="/hero-mockup-2.webp"
-          alt="Meet and chat with fellow learners"
+          heading={`Helps you in \nvarious ventures`}
+          img="/niu2.webp"
+          alt="Helps you in various ventures"
         />
       ),
     },
     {
       content: () => (
         <ProductStoryTemplate
-          heading={`Practice with our \ngenerative flashcards`}
-          img="/hero-mockup-3.webp"
-          alt="Practice with our generative flashcards"
+          heading={`Your ideal \nacademic partner`}
+          img="/niu3.webp"
+          alt="Your ideal academic partner"
         />
       ),
     },
