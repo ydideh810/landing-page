@@ -17,8 +17,38 @@ function Home() {
           </div>
           <WaitlistInput />
             <a href="https://react.school" style={{ backgroundColor: 'white', color: 'blue', lineHeight : 10, padding: 50, }} target="_blank">
+              
         Try for Free
       </a>
+          <a
+  href="#"
+  style={{
+    display: 'inline-block',
+    border: 'none',
+    padding: 0,
+    backgroundColor: '#f7f7f7',
+    borderRadius: '10px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    '& .pill-background': {
+      display: 'block',
+      width: '100%',
+      height: '30px',
+      borderRadius: '10px 10px 0 0',
+      backgroundColor: '#fff',
+    },
+    '& .pill-text': {
+      display: 'block',
+      padding: '10px',
+      textAlign: 'center',
+      fontSize: '16px',
+      fontWeight: 'bold',
+      color: '#333',
+    },
+  }}
+>
+  <span className="pill-background"></span>
+  <span className="pill-text">Click me!</span>
+</a>
         </div>
         <div className="hidden h-full w-full lg:flex">
           <ProductStories />
