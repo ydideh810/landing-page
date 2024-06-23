@@ -16,7 +16,7 @@ function Home() {
             </span>
           </div>
           <WaitlistInput />
-            <a href="https://react.school" style={{ color: 'blue', lineHeight : 10, padding: 20 }}> target="_blank">
+            <a href="https://react.school" style={{ color: 'blue', lineHeight : 10, padding: 20 }} target="_blank">
         Try for Free
       </a>
         </div>
