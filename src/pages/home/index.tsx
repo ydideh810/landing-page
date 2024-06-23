@@ -21,7 +21,7 @@ function Home() {
           <ProductStories />
         </div>
          <a href="https://react.school" target="_blank">
-        <Button>Link</Button>
+        Try fro Free
       </a>
         <div className="max-h-[50%]">
           <img
