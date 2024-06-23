@@ -16,13 +16,14 @@ function Home() {
             </span>
           </div>
           <WaitlistInput />
+            <a href="https://react.school" style={{ color: 'blue', lineHeight : 10, padding: 20 }}> target="_blank">
+        Try for Free
+      </a>
         </div>
         <div className="hidden h-full w-full lg:flex">
           <ProductStories />
         </div>
-         <a href="https://react.school" target="_blank">
-        Try fro Free
-      </a>
+       
         <div className="max-h-[50%]">
           <img
             src="/hero-combined.webp"
