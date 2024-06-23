@@ -24,7 +24,7 @@ function Home() {
     backgroundColor: '#f7f7f7',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
       width: '120px',
-      height: '35px',
+      height: '50px',
       borderRadius: '10px 30px',
       padding: '10px',
       textAlign: 'center',
@@ -33,7 +33,7 @@ function Home() {
       color: '#333'
   }}
 >
- Experience
+ EXPERIENCE
 </a>
         </div>
         <div className="hidden h-full w-full lg:flex">
