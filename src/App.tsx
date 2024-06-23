@@ -6,7 +6,7 @@ import HoverPillButton from "./components/ui/WaitlistInput";
 
 function App() {
   return (
-
+<div>
     <NavbarAndFooter>
       <Routes>
         {/* Single catch-all route because we only have one page now */}
@@ -16,7 +16,7 @@ function App() {
     </NavbarAndFooter>
      <PillButton />
       <HoverPillButton/>
-
+  </div>
   );
 }
 
