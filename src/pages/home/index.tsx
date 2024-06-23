@@ -29,25 +29,19 @@ function Home() {
     backgroundColor: '#f7f7f7',
     borderRadius: '10px',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-    '& .pill-background': {
       display: 'block',
       width: '100%',
       height: '30px',
       borderRadius: '10px 10px 0 0',
       backgroundColor: '#fff',
-    },
-    '& .pill-text': {
-      display: 'block',
       padding: '10px',
       textAlign: 'center',
       fontSize: '16px',
       fontWeight: 'bold',
-      color: '#333',
-    },
+      color: '#333'
   }}
 >
-  <span className="pill-background"></span>
-  <span className="pill-text">Click me!</span>
+ LINK
 </a>
         </div>
         <div className="hidden h-full w-full lg:flex">
