@@ -26,7 +26,7 @@ function Home() {
       width: '70px',
       height: '30px',
       borderRadius: '10px 30px',
-      padding: '10px',
+      padding: '30px',
       textAlign: 'center',
       fontSize: '16px',
       fontWeight: 'bold',
