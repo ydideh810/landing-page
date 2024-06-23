@@ -20,6 +20,9 @@ function Home() {
         <div className="hidden h-full w-full lg:flex">
           <ProductStories />
         </div>
+         <a href="https://react.school" target="_blank">
+        <Button>Link</Button>
+      </a>
         <div className="max-h-[50%]">
           <img
             src="/hero-combined.webp"
