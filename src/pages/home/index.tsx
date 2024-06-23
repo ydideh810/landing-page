@@ -1,6 +1,4 @@
 import WaitlistInput from "@/components/ui/WaitlistInput";
-import PillButton from "@/components/ui/WaitlistInput";
-import HoverPillButton from "@/components/ui/WaitlistInput";
 
 import ProductStories from "./ProductStories";
 
@@ -18,12 +16,6 @@ function Home() {
             </span>
           </div>
           <WaitlistInput />
-        </div>
-        </div>
-          <PillButton />
-        </div>
-         </div>
-          <HoverPillButton />
         </div>
         <div className="hidden h-full w-full lg:flex">
           <ProductStories />
