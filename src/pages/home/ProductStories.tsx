@@ -63,7 +63,7 @@ function ProductStories() {
       content: () => (
         <ProductStoryTemplate
           heading={`Your private \ncoding assistant`}
-          img="/niu3.webp"
+          img="/niu4.webp"
           alt="Your private coding assistant"
         />
       ),
@@ -72,7 +72,7 @@ function ProductStories() {
       content: () => (
         <ProductStoryTemplate
           heading={`Your private \nhistory teacher`}
-          img="/niu3.webp"
+          img="/niu5.webp"
           alt="Your private history teacher"
         />
       ),
