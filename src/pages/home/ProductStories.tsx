@@ -53,9 +53,27 @@ function ProductStories() {
     {
       content: () => (
         <ProductStoryTemplate
-          heading={`Your ideal \nacademic partner`}
+          heading={`Your private \nacademic partner`}
           img="/niu3.webp"
           alt="Your ideal academic partner"
+        />
+      ),
+    },
+     {
+      content: () => (
+        <ProductStoryTemplate
+          heading={`Your private \ncoding assistant`}
+          img="/niu3.webp"
+          alt="Your private coding assistant"
+        />
+      ),
+    },
+     {
+      content: () => (
+        <ProductStoryTemplate
+          heading={`Your private \nhistory teacher`}
+          img="/niu3.webp"
+          alt="Your private history teacher"
         />
       ),
     },
