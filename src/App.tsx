@@ -2,6 +2,7 @@ import Home from "@/pages/home";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 import NavbarAndFooter from "./components/layouts/NavbarAndFooter";
+import PillButton, HoverPillButton from "./components/ui/WaitlistInput";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+       <PillButton />
+      <HoverPillButton/>
     </NavbarAndFooter>
   );
 }
