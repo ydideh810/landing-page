@@ -23,7 +23,7 @@ function Home() {
     border: 'none',
     backgroundColor: '#f7f7f7',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-      width: '100%',
+      width: '50px',
       height: '30px',
       borderRadius: '10px 10px 0 0',
       padding: '10px',
