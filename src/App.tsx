@@ -2,7 +2,7 @@ import Home from "@/pages/home";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 import NavbarAndFooter from "./components/layouts/NavbarAndFooter";
-import PillButton, HoverPillButton from "./components/ui/WaitlistInput";
+import { PillButton, HoverPillButton } from "./components/ui/WaitlistInput";
 
 function App() {
   return (
