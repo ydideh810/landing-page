@@ -23,7 +23,7 @@ function Home() {
     border: 'none',
     backgroundColor: '#f7f7f7',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-      width: '100px',
+      width: '120px',
       height: '30px',
       borderRadius: '10px 30px',
       padding: '10px',
@@ -33,7 +33,7 @@ function Home() {
       color: '#333'
   }}
 >
- Try For Free
+ Experience
 </a>
         </div>
         <div className="hidden h-full w-full lg:flex">
