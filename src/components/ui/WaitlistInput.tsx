@@ -89,6 +89,31 @@ export default function WaitlistInput() {
       />
     </form>
     
-   <a href="https://www.niddamyar.online/" style="background-color: #000; color: #fff; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; padding: 10px 20px; border-radius: 50%;  text-align: center; text-decoration: none; transition: background-color 0.3s, color 0.3s;">EXPLORE</a>
+       <a
+      href="#"
+      className="pill-button"
+      style={{
+        backgroundColor: '#000',
+        color: '#fff',
+        padding: '10px 20px',
+        borderRadius: '50%',
+        textAlign: 'center',
+        textDecoration: 'none',
+        transition: 'background-color 0.3s, color 0.3s'
+      }}
+    >
+      <span
+        style={{
+          backgroundColor: '#fff',
+          color: '#000',
+          padding: '10px 20px',
+          borderRadius: '50%',
+          textAlign: 'center',
+          textDecoration: 'none'
+        }}
+      >
+        EXPLORE
+      </span>
+    </a>
     );
 }
