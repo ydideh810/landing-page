@@ -70,7 +70,7 @@ export default function WaitlistInput() {
             hidden: status !== WaitlistButtonStatus.DEFAULT,
           })}
         >
-          Join Waitlist
+          Subscribe
         </span>
         <Loader
           className={cn("h-4 w-4 animate-spin", {
