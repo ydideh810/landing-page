@@ -25,7 +25,7 @@ function Home() {
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
       width: '70px',
       height: '30px',
-      borderRadius: '10px 0 0',
+      borderRadius: '10px 30px',
       padding: '10px',
       textAlign: 'center',
       fontSize: '16px',
