@@ -17,7 +17,7 @@ function Home() {
           </div>
           <WaitlistInput />
           <a
-  href="#"
+  href="https://www.niddamyar.online/"
   style={{
     display: 'inline-block',
     border: 'none',
