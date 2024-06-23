@@ -12,6 +12,57 @@ enum WaitlistButtonStatus {
   SUCCESS = "success",
 }
 
+const PillButton = () => {
+  return (
+    <a
+      href="#"
+      className="pill-button"
+      style={{
+        backgroundColor: '#000',
+        color: '#fff',
+        padding: '10px 20px',
+        borderRadius: '50%',
+        textAlign: 'center',
+        textDecoration: 'none',
+        transition: 'background-color 0.3s, color 0.3s'
+      }}
+    >
+      EXPLORE
+    </a>
+  );
+};
+
+const HoverPillButton = () => {
+  return (
+    <a
+      href="#"
+      className="pill-button"
+      style={{
+        backgroundColor: '#000',
+        color: '#fff',
+        padding: '10px 20px',
+        borderRadius: '50%',
+        textAlign: 'center',
+        textDecoration: 'none',
+        transition: 'background-color 0.3s, color 0.3s'
+      }}
+    >
+      <span
+        style={{
+          backgroundColor: '#fff',
+          color: '#000',
+          padding: '10px 20px',
+          borderRadius: '50%',
+          textAlign: 'center',
+          textDecoration: 'none'
+        }}
+      >
+        EXPLORE
+      </span>
+    </a>
+  );
+};
+
 export default function WaitlistInput() {
   const [status, setStatus] = useState<WaitlistButtonStatus>(WaitlistButtonStatus.DEFAULT);
   const [email, setEmail] = useState<string>("");
@@ -89,31 +140,5 @@ export default function WaitlistInput() {
       />
     </form>
     
-       <a
-      href="#"
-      className="pill-button"
-      style={{
-        backgroundColor: '#000',
-        color: '#fff',
-        padding: '10px 20px',
-        borderRadius: '50%',
-        textAlign: 'center',
-        textDecoration: 'none',
-        transition: 'background-color 0.3s, color 0.3s'
-      }}
-    >
-      <span
-        style={{
-          backgroundColor: '#fff',
-          color: '#000',
-          padding: '10px 20px',
-          borderRadius: '50%',
-          textAlign: 'center',
-          textDecoration: 'none'
-        }}
-      >
-        EXPLORE
-      </span>
-    </a>
     );
 }
