@@ -24,7 +24,7 @@ function Home() {
     backgroundColor: '#f7f7f7',
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
       width: '120px',
-      height: '30px',
+      height: '35px',
       borderRadius: '10px 30px',
       padding: '10px',
       textAlign: 'center',
